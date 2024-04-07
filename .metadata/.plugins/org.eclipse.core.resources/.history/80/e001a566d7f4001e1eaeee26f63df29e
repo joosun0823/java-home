@@ -1,0 +1,5 @@
+package lambda;
+@FunctionalInterface
+public interface A {
+	int addNum(int num);
+}

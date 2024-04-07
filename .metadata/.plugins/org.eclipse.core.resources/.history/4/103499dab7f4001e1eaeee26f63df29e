@@ -1,0 +1,8 @@
+package inter;
+
+public interface InterA {
+	//상수, 추상메소드
+	final int NUM = 10;
+	void getNum(); //인터페이스에서는 abstract 안붙여도 추상메소드로 간주
+	
+}

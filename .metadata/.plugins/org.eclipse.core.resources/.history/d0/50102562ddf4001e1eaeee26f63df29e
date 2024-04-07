@@ -1,0 +1,10 @@
+package inter;
+
+public class A implements InterA{
+
+	@Override
+	public void getNum() {
+		System.out.println(NUM);
+	}
+
+}

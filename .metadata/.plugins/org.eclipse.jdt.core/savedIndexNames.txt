@@ -1,0 +1,24 @@
+INDEX VERSION 1.134+C:\homework_java_kjs\java\workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+371028080.index
+1098347021.index
+816780417.index
+457573020.index
+735861966.index
+210866712.index
+1425701431.index
+898851404.index
+1993285105.index
+597735221.index
+4286502213.index
+3790047149.index
+858178207.index
+94394398.index
+1531412002.index
+2525153150.index
+3647116403.index
+115667787.index
+754408482.index
+1652041220.index
+2518301915.index
+1074751046.index

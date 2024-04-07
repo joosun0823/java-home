@@ -1,0 +1,25 @@
+package accessModifier;
+
+public class A {
+	public int num1;
+	protected int num2;
+	private int num3;
+	
+	//생성자
+	public A() {
+		super();
+	}
+
+	
+	//num3 get/set
+	public int getNum3() {
+		return num3;
+	}
+
+	public void setNum3(int num3) {
+		this.num3 = num3;
+	}
+	
+	
+	
+}

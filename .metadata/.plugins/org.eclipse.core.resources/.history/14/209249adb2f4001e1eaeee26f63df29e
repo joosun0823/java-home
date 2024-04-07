@@ -1,0 +1,17 @@
+package constructor;
+
+public class A {
+	int num;
+	String name;
+	int age;
+	
+	public A(int num) {
+		this.num = num;
+	}
+
+	public A() {
+
+	}
+	
+	
+}

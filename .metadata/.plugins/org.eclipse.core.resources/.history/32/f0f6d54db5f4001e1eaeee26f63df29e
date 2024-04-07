@@ -1,0 +1,12 @@
+package casting;
+
+public class Main {
+	public static void main(String[] args) {
+		Child c = new Child();
+		Parents p = new Child(); //업캐스팅
+		
+		System.out.println(p instanceof Child);
+		System.out.println(p instanceof Parents);
+		
+	}
+}

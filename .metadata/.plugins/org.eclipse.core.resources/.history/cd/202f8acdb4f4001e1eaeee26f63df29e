@@ -1,0 +1,7 @@
+package casting;
+
+public class Parents {
+	int age;
+	String name;
+	
+}

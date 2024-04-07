@@ -1,0 +1,33 @@
+package generic;
+
+public class DataList {
+	
+	//필드 모두 프라이빗
+	private Object[] data;
+	private int size;
+	private int defaultSize = 10;
+	
+	//생성자
+	//객체 생성 시 데이터 필드 초기환
+	public DataList() {
+		this.data = new Object[defaultSize];
+	}
+	//매개변수 1개받는 생성자
+	public DataList(int size) {
+		this.data = new Object[size];
+	}
+	
+	//메소드
+	public void add(Object value) {
+		data[size++] = value;
+	}
+	
+	public Object get(int index) {
+		return data[index];
+	}
+	
+	public int size() {
+		return size;
+	}
+	
+}

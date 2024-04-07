@@ -1,0 +1,27 @@
+package lambda;
+
+public class Main {
+	public static void main(String[] args) {
+//		A a = new A(); 인터페이스 객체화 불가능
+		
+		A a = new A() { //익명 클래스로 객체화 가능
+			
+			@Override
+			public int addNum(int num) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		
+		
+		
+		A a1 = new A() {
+			
+			@Override
+			public int addNum(int num) {
+				return num + 10;
+				
+			}
+		};
+	}
+}

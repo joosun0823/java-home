@@ -1,0 +1,10 @@
+package abstractT;
+
+public class B extends A{
+
+	@Override
+	void getNum() {
+		System.out.println("메소드 오버라이딩" + num);
+	}
+
+}

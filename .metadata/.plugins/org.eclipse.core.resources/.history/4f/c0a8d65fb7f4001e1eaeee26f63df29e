@@ -1,0 +1,7 @@
+package inter;
+
+public interface InterA {
+	static final int NUM = 10;
+	
+	
+}

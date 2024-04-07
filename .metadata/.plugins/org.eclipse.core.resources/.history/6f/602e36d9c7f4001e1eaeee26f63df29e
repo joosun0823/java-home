@@ -1,0 +1,12 @@
+package generic;
+
+public class DataList {
+	private Object[] data;
+	private int size;
+	private int defaultSize = 10;
+	
+	public DataList() {
+		this.data = new Object[defaultSize];
+	}
+	
+}

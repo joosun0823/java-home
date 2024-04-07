@@ -1,0 +1,24 @@
+package library;
+
+public class Main {
+	public static void main(String[] args) {
+		Library li = new Library();
+		Member m1 = new Member("김주선", "01012341234", "강남구");
+		
+		li.join(m1);
+		
+		
+		Book b1 = new Book("돼지");
+		li.bookRegister(b1);
+		
+		
+		li.bookRental(0, m1);
+		li.showLibraryMemberList();
+		li.showLibraryBookList();
+		
+		System.out.println("=============");
+		li.bookReturn(0, m1);
+		li.showLibraryMemberList();
+		li.showLibraryBookList();
+	}
+}

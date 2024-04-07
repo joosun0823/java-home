@@ -1,0 +1,17 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class TextMain {
+	public static void main(String[] args) {
+		Set<Text> msgSet = new HashSet<>();
+		
+		Text msg1 = new Text(001,"김주선");
+		Text msg2 = new Text(001,"김주선");
+		Text msg3 = new Text(001,"김주선");
+		Text msg4 = new Text(002,"김모씨");
+		Text msg5 = new Text(003,"권모씨");
+		
+	}
+}

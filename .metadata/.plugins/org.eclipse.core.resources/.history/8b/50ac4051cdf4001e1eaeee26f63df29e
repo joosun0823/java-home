@@ -1,0 +1,9 @@
+package generic;
+
+public class DataListExample {
+	public static void main(String[] args) {
+		DataList list = new DataList();
+		
+		list.add(10);
+	}
+}

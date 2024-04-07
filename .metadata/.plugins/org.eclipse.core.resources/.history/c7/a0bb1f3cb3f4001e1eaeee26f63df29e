@@ -1,0 +1,16 @@
+package inheritance;
+
+public class A {
+	int num;
+	int num2;
+	
+	//기본생성자
+	public A() {
+
+	}
+	
+	//메소드
+	void addNum() {
+		System.out.println(num+num2);
+	}
+}

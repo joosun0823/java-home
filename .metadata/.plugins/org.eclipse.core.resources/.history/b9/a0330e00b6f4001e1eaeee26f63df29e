@@ -1,0 +1,25 @@
+package casting;
+
+public class Main {
+	public static void main(String[] args) {
+		Child c = new Child();
+		Parents p = new Parents();
+		
+		
+		Parents p1 = new Child(); //부모타입으로 업캐스팅
+		Child c1 = (Child) p1; //업캐스팅됐던 값을 자식타입으로 다운캐스팅
+
+		
+	
+		System.out.println(p instanceof Child);
+		System.out.println(p instanceof Parents);
+		System.out.println(p1 instanceof Child);
+		System.out.println(p1 instanceof Parents);
+		System.out.println(c1 instanceof Parents);
+		System.out.println(c1 instanceof Child);
+		
+//		p.getAge();
+//		p.getJob();
+//		c.getJob();
+	}
+}

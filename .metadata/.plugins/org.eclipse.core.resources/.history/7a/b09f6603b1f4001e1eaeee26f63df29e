@@ -1,0 +1,19 @@
+package method;
+
+public class Overloading {
+	void printNum(int num) {
+		
+	}
+	
+	void printNum(double num) {
+		
+	}
+	
+	void printNum(String name) {
+			
+	}
+
+	void printNum(int[] num) {
+		
+	}
+}
